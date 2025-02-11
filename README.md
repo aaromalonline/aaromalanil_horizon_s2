@@ -1,1 +1,5 @@
-# aaromalanil_horizon_s2
+# Introduction
+ I am Aaromal A, S2 ECE undergrad at SOE, CUSAT
+ [Visit Portfolio - Aaromal A](https://aaromalonline.github.io/)
+
+ 
