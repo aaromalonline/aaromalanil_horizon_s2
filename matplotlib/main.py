@@ -4,9 +4,9 @@ matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 
 '''steps : 
-1. input the points --> list of tuple of points
-2. the list of tuple of closest neighbours (lines) from points
-3. plot the points by analysing lines
+1. input the points --> list of tuple of points for plotting points
+2. compute distance btw every pair of points --> the list of tuple of closest/neighbouring points (point's indices) for connecting lines 
+3. scatter the the inputted points from points & plot/connect the neighbour point pairs acc to lines 
 '''
 
 #finding distance btween 2 points using euclidean formula 
