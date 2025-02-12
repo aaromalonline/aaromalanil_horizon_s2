@@ -55,3 +55,15 @@ if __name__ == "__main__":
     points = getPoints()
     lines = list(getLines(points))
     plot(points, lines)
+
+
+'''
+TESTCASE 1 : <./testcase-1.png>
+
+points = [(2.0, 3.0), (4.0, 5.0), (5.0, 0.0), (0.0, 9.0)] are the all points to be plotted
+
+lines = [(0, 1), (0, 2), (1, 3)]
+(2,3) <--> (4,5), (2,3) <--> (5,0), (4,5) <--> (0,9) are the closest neghbouring pairs need to be connected by lines 
+
+
+'''
