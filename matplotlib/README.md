@@ -16,6 +16,7 @@ source ../venv/bin/activate
 2.  **Install Required Packages**
 ```sh
 pip3 install -r requirements.txt
+sudo apt-get install python3-tk
 ```
 3.  **Run the Script**
 ```sh
