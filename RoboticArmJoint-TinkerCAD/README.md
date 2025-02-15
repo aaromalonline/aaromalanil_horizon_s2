@@ -1,6 +1,6 @@
 # Robotic Arm Joint - TinkerCAD Project
 
-This project demonstrates the design and control of a robotic arm joint using 6 servo motors.
+This project demonstrates the design and control of a robotic arm joint using 6 servo motors. <br>
 [See TinkerCAD Stimulation](https://www.tinkercad.com/things/85WShlwK5Ei-roboticarmjoint`)
 
 ## Project Structure
