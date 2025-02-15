@@ -1,4 +1,15 @@
-# Setting up & running `main.py` 
+# Plotting Neughbouring points - Matplotlib
+
+This is a program to plot neighbouring points inputted by the user using matplotlib & python.
+
+## Project Structure
+
+- `./main.py` - main python source code
+-  `./requirements.txt` - module vers
+- `./testcase-1.png` - testcase output image
+
+
+## Setting up & running `main.py` 
 
 NP :- commands written to run on linux distros specifically ubuntu
 
