@@ -3,3 +3,4 @@
  [Visit Portfolio - Aaromal A](https://aaromalonline.github.io/)
 
  
+NP :- commands written to run on linux distros specifically ubuntu (Ubuntu-24.04LTS & Ubuntu-22.04LTS)

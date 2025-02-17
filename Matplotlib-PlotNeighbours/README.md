@@ -11,8 +11,6 @@ This is a program to plot neighbouring points inputted by the user using matplot
 
 ## Setting up & running `main.py` 
 
-NP :- commands written to run on linux distros specifically ubuntu
-
 Make sure to clone the repo and cd into matplotlib using git clone first, then continue with initializing/activating the venv followed by installing required modules (matplotlib) from requirements.txt to the activated venv as follows :
 ```sh
 git clone https://github.com/aaromalonline/aaromalanil_horizon_s2.git
