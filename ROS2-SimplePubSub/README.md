@@ -2,8 +2,29 @@
 
 This project demonstrates a simple implementation of a publisher and subscriber nodes using ROS2 Humble. The publisher node sends messages to a 'sayhello' topic, and the subscriber node listens (subscribed) to that topic and processes the messages.
 
-testcase-1 : ./testcase-1.png
+## Directory Structure 
 
+ROS2 package : spubsub
+nodes : publisher, subscriber
+
+```
+/ROS2-SimplePubSub 
+├── src/                       
+│   ├── spubsub/             
+│   │   ├── spubsub/        
+│   │   │   ├── __init__.py   
+│   │   │   ├── publisher.py   
+│   │   │   ├── subscriber.py  
+│   │   ├── resource/ 
+│   │   ├── test/          
+│   │   ├── setup.py           
+│   │   ├── package.xml        
+│   │   ├── setup.cfg          
+│   │   ├── CMakeLists.txt     
+├── testcase-1.png   
+├── requirements.txt                 
+├── README.md                              
+```
 
 ## Requirements
 

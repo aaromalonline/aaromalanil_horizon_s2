@@ -4,8 +4,29 @@ A virtual security system using ROS 2 that simulates motion detection using simp
 
 Use Case: This can simulate real-world security systems where a motion sensor detects intruders and triggers an alarm. This can be implimented using arduino and microros s/m where arduino itself acts as sensor node and publishes the distances from a ultrasonic sensor (proximity) to a topic whhere the alert subscribes to anlyse and trigger the alarm. ROS implimentation is more effective and scalable compared to plane code implimentation.
 
-testcase-1 : ./testcase-1.png
+## Directory Structure
 
+ROS2 package : proximity_alert
+nodes : sensor, alert
+
+```
+/ROS2-ProximityAlertSm
+├── src/                       
+│   ├── proximity_alert/             
+│   │   ├── proximity_alert/        
+│   │   │   ├── __init__.py   
+│   │   │   ├── sensor.py   
+│   │   │   ├── alert.py  
+│   │   ├── resource/   
+│   │   ├── test/        
+│   │   ├── setup.py           
+│   │   ├── package.xml        
+│   │   ├── setup.cfg          
+│   │   ├── CMakeLists.txt     
+├── testcase-1.png 
+├── requirements.txt                        
+├── README.md                              
+```
 
 ## Requirements
 
