@@ -52,7 +52,7 @@ To run the publisher node:
 ros2 run spubsub publisher
 ```
 
-To run the subscriber node:
+To run the subscription node:
 
 ```bash
 ros2 run spubsub subscriber

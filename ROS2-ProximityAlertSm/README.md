@@ -36,7 +36,7 @@ pip install -r requirements.txt
 ### 3. Build the Project
 
 ```bash
-colcon build --packages-select spubsub
+colcon build --packages-select proximity_alert
 ```
 
 ### 4. Run the Nodes
@@ -48,14 +48,14 @@ source ros2_env/bin/activate
 source install/setup.bash
 ```
 
-To run the publisher node:
+To run the publisher node (sensor):
 
 ```bash
-ros2 run spubsub publisher
+ros2 run proximity_alert sensor
 ```
 
-To run the subscriber node:
+To run the subscription node (alert):
 
 ```bash
-ros2 run spubsub subscriber
+ros2 run proximity_alert alert
 ```
