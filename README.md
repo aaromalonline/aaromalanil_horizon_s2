@@ -2,7 +2,7 @@
  I am Aaromal A, S2 ECE undergrad at SOE, CUSAT <br>
  [Visit Portfolio - Aaromal A](https://aaromalonline.github.io/)
 
-# Tasks
+## Tasks
 ```
 1. Easy : ./Matplotlib-PlotNeighbours
 2. Medium : ./RboticArmJoint-TinkerCAD
