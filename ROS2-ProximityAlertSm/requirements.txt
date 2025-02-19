@@ -8,3 +8,4 @@ ament-lint==0.9.0
 ament-index-python==1.0.0
 rosidl-parser==1.0.0
 rosidl-runtime-py==1.0.0
+matplotlib==3.4.3

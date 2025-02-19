@@ -1,8 +1,14 @@
 # ROS2 : Proximity Alert System (Stimulation)
 
-A virtual security system using ROS 2 that simulates motion detection using simple publisher & subscriber nodes. A sensor node publishes distance values, and an alert node checks if the distance is below a threshold. If an object is too close, it triggers an alarm (printed warning + optional sound).
+A virtual security system using ROS 2 that simulates motion detection & analysis using simple publisher & subscribtion nodes. The sensor node publishes distance values from the sensor (here generated random) to a topic /proximity where the alert node subscribes to. The alert node could analayse & check whether the distances received pass a specific threshold thus alerting based on that. The project can be scaled to receive real data from a ultrasonic sensor on microcontroller board and communicate with nodes of ROS2 using microros system.
 
-Use Case: This can simulate real-world security systems where a motion sensor detects intruders and triggers an alarm or car reverse parking assist s/m or can be utilised to monitor & analyse the position of a object with respect to other. This can be implimented using arduino and microros s/m where arduino itself acts as sensor node and publishes the distances from a ultrasonic sensor (proximity) to a topic where the alert subscribes to anlyse and trigger the alarm by serial or wireless communication btw the arduino & computer. ROS implimentation is more effective and scalable compared to plane code implimentation.
+
+## Features
+
+- Sensor node read/randomly generate distance data & publish it into proximity topic
+- Alert node receive distances from its subscribed topic proximity
+- Log out warning mesaages on terminal and csv file based on obstacle distances in realtime
+- Analyse and plot the relatime distances vs time of the obstacle
 
 ## Directory Structure
 
@@ -23,6 +29,7 @@ nodes : sensor, alert
 │   │   ├── package.xml        
 │   │   ├── setup.cfg           
 ├── testcase-1.png 
+├── testcase-2.webm
 ├── requirements.txt                        
 ├── README.md                              
 ```

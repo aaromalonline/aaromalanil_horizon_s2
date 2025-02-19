@@ -5,6 +5,7 @@ venv/
 build/
 install/
 log/
+distance_log.csv
 
 # Python compiled files
 __pycache__/
