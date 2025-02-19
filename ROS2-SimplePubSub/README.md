@@ -20,7 +20,6 @@ nodes : publisher, subscriber
 │   │   ├── setup.py           
 │   │   ├── package.xml        
 │   │   ├── setup.cfg          
-│   │   ├── CMakeLists.txt     
 ├── testcase-1.png   
 ├── requirements.txt                 
 ├── README.md                              
