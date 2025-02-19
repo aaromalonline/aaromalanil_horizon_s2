@@ -1,5 +1,5 @@
 # Introduction
- I am Aaromal A, S2 ECE undergrad at SOE, CUSAT <br>
+ I am Aaromal A, ECE (S2) undergrad at SOE, CUSAT <br>
  [Visit Portfolio - Aaromal A](https://aaromalonline.github.io/)
 
 ## Tasks
