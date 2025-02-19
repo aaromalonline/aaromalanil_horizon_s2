@@ -4,6 +4,7 @@ from std_msgs.msg import Float32
 import random
 import time
 
+
 #blueprint for the sensor node
 class Sensor(Node):
     def __init__(self):
@@ -12,7 +13,7 @@ class Sensor(Node):
         self.timer = self.create_timer(1, self.publish_distance) 
 
     def publish_distance(self):
-        distance = random.uniform(1.0, 10.0)
+        distance = random.uniform(1.0, 100.0) #generate random distance between 1.0 and 10.0 (distance could be taken from a real sensor)
         msg = Float32()
         msg.data = distance
         self.publisher.publish(msg)
