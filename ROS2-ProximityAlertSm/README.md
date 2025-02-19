@@ -2,7 +2,7 @@
 
 A virtual security system using ROS 2 that simulates motion detection using simple publisher & subscriber nodes. A sensor node publishes distance values, and an alert node checks if the distance is below a threshold. If an object is too close, it triggers an alarm (printed warning + optional sound).
 
-Use Case: This can simulate real-world security systems where a motion sensor detects intruders and triggers an alarm. This can be implimented using arduino and microros s/m where arduino itself acts as sensor node and publishes the distances from a ultrasonic sensor (proximity) to a topic whhere the alert subscribes to anlyse and trigger the alarm. ROS implimentation is more effective and scalable compared to plane code implimentation.
+Use Case: This can simulate real-world security systems where a motion sensor detects intruders and triggers an alarm or car reverse parking assist s/m or can be utilised to monitor & analyse the position of a object with respect to other. This can be implimented using arduino and microros s/m where arduino itself acts as sensor node and publishes the distances from a ultrasonic sensor (proximity) to a topic where the alert subscribes to anlyse and trigger the alarm by serial or wireless communication btw the arduino & computer. ROS implimentation is more effective and scalable compared to plane code implimentation.
 
 ## Directory Structure
 
@@ -21,8 +21,7 @@ nodes : sensor, alert
 │   │   ├── test/        
 │   │   ├── setup.py           
 │   │   ├── package.xml        
-│   │   ├── setup.cfg          
-│   │   ├── CMakeLists.txt     
+│   │   ├── setup.cfg           
 ├── testcase-1.png 
 ├── requirements.txt                        
 ├── README.md                              
