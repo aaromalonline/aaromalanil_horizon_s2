@@ -12,7 +12,7 @@ A virtual security system using ROS 2 that simulates motion detection & analysis
 
 ## Directory Structure
 
-ROS2 package : proximity_alert
+ROS2 package : proximity_alert <br>
 nodes : sensor, alert
 
 ```
