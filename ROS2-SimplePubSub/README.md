@@ -4,7 +4,7 @@ This project demonstrates a simple implementation of a publisher and subscriber 
 
 ## Directory Structure 
 
-ROS2 package : spubsub
+ROS2 package : spubsub <br>
 nodes : publisher, subscriber
 
 ```
