@@ -48,7 +48,7 @@ class Alert(Node):
         else:
             self.get_logger().info(f"\U0001F7E2 Safe distance: {distance:.2f} cm")
 
-        #limit data to 50 points
+        #limit data to 50 points (for ploting)
         if len(time_stamps) > 50: 
             time_stamps = time_stamps[-50:]
             distances = distances[-50:]
@@ -60,8 +60,6 @@ def update(frame):
     ax.axhline(y=10, color="red", linestyle="--", label="Danger (<10 cm)")
     ax.axhline(y=30, color="yellow", linestyle="--", label="Caution (<30 cm)")
 
-    #ax.set_xticks(range(len(time_stamps)))  
-    #ax.set_xticklabels(time_stamps, rotation=45, ha="right")
     ax.set_title("Real-Time Distance Monitoring")
     ax.set_ylabel("Distance (cm)")
     ax.set_xlabel("Time")
@@ -71,13 +69,12 @@ def update(frame):
     ax.legend()
     ax.grid(True) 
 
-
 def main():
     rclpy.init(args=None)
     node = Alert() #initialized alert node object
 
     global fig, ax
-    plt.ion() #interactive mode'
+    plt.ion() #interactive mode
     fig, ax = plt.subplots(figsize=(8, 4)) 
     ani = animation.FuncAnimation(fig, update, interval=500)
 
